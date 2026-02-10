@@ -20,7 +20,7 @@ Ideal for beginners learning **Arduino, analog inputs, and basic electronics**.
 ## 🧰 Components Used
 
 - Arduino Uno / Nano
-- 10kΩ Potentiometer (variable resistor)
+- B50kΩ Potentiometer (variable resistor)
 - Breadboard
 - Jumper wires
 - USB cable
@@ -52,22 +52,10 @@ Turning the knob clockwise increases voltage.
 - Arduino’s ADC converts the voltage into a value between `0–1023`
 - The voltage is calculated and printed to the Serial Monitor
 
+## 🎥 Demo Video
+
+[▶️ Click to play demo video](assets/reading.mov)
+
 ---
 
-## 💻 Code
 
-```cpp
-const int inputVoltage = A2;
-int readVoltage;
-float outputVoltage;
-
-void setup() {
-  Serial.begin(9600);
-}
-
-void loop() {
-  readVoltage = analogRead(inputVoltage);
-  outputVoltage = readVoltage * (5.0 / 1023.0);
-  Serial.println(outputVoltage);
-  delay(250);
-}
