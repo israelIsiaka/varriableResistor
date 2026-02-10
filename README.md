@@ -54,7 +54,8 @@ Turning the knob clockwise increases voltage.
 
 ## 🎥 Demo Video
 
-[▶️ Click to play demo video](assets/reading.mov)
+[▶️ Click to play demo video]( <img width="1440" height="900" alt="Screenshot 2026-02-02 at 9 17 45 PM" src="https://github.com/user-attachments/assets/a76f21c2-bb89-473f-b52c-53f72de642bc" />
+ssets/reading.mov)
 
 ---
 
